@@ -1,45 +1,29 @@
 import React from "react";
 import "./App.css";
+import Sidebar from "./components/sidebar/Sidebar";
+import Home from "./components/home/Home";
+import About from "./components/about/About";
+import Resume from "./components/resume/Resume";
+import Work from "./components/work/Work";
+import Contact from "./components/contact/Contact";
 
-const displayEmojiName = event => alert(event.target.id);
 
-function App() {
-  const greeting = "greeting";
-  return (
-    <div className="container">
-      <h1 id={greeting}>Hello, World</h1>
-      <p>I am writing JSX</p>
-      <ul>
-        <li>
-          <button
-          onClick={displayEmojiName}
-          >
-            <span role="img" aria-label="grinning face" id="grinning face">
-              😀
-            </span>
-          </button>
-        </li>
-        <li>
-          <button
-          onClick={displayEmojiName}
-          >
-            <span role="img" aria-label="party popper" id="party popper">
-              🎉
-            </span>
-          </button>
-        </li>
-        <li>
-          <button
-          onClick={displayEmojiName}
-          >
-            <span role="img" aria-label="woman dancing" id="woman dancing">
-              💃
-            </span>
-          </button>
-        </li>
-      </ul>
-    </div>
-  );
+
+const App = () => {
+ return (
+  <>
+  <Sidebar />
+  <main className='main'>
+    <Home />
+    <Work />
+    <About />
+    <Contact />
+    <Resume />
+
+  </main>
+  </>
+ )
+  
 }
 
 export default App;
