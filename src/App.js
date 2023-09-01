@@ -8,22 +8,20 @@ import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 
 
-
 const App = () => {
  return (
   <>
   <Sidebar />
   <main className='main'>
-    <Home />
     <Work />
     <About />
     <Contact />
     <Resume />
-
   </main>
+  <Home />
+
   </>
  )
-  
 }
 
 export default App;
