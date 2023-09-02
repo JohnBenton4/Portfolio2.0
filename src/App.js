@@ -1,27 +1,28 @@
-import React from "react";
-import "./App.css";
-import Sidebar from "./components/sidebar/Sidebar";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Resume from "./components/resume/Resume";
-import Work from "./components/work/Work";
-import Contact from "./components/contact/Contact";
+import { lazy, Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+const Home = lazy(() => import('./routes/Home'));
+const About = lazy(() => import('./routes/About'));
+const Work = lazy(() => import('./routes/Work'));
 
+
+// import React from "react";
+// import "./App.css";
+// import { About, Contact, Home, Resume, Work } from './routes';
+// import { Home } from "./routes";
 
 const App = () => {
- return (
-  <>
-  <Sidebar />
-  <main className='main'>
-    <Work />
-    <About />
-    <Contact />
-    <Resume />
-  </main>
-  <Home />
+  return (
+    <>
+      <Suspense fallback={<div className="container">Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Work />} />
 
-  </>
- )
-}
+        </Routes>
+      </Suspense>
+    </>
+  );
+};
 
 export default App;

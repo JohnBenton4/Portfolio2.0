@@ -5,8 +5,13 @@ const Sidebar = () => {
   return (
     <aside className="aside">
       <nav className="nav">
-        <div className="nav__list">
           <ul className="nav__list">
+            <li className="nav__item">
+              <a href="/" className="home-button">
+                HOME
+              </a>
+            </li>
+            <br></br>
             <li className="nav__item">
               <a
                 href="https://www.linkedin.com/in/john-benton/"
@@ -15,14 +20,18 @@ const Sidebar = () => {
                 LI
               </a>
             </li>
+            <br></br>
             <li className="nav__item">
               <a href="https://github.com/JohnBenton4" className="gitHub">
                 GH
               </a>
             </li>
           </ul>
-        </div>
       </nav>
+
+      <div className="nav__footer">
+        <span className="copyright">&copy; 2023</span>
+      </div>
     </aside>
   );
 };
