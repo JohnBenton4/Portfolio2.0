@@ -9,6 +9,14 @@ export default function Home() {
     <>
     <Sidebar />
     <div className="container">
+        <div className="intro">
+            <div className="name">
+            John Benton
+            </div>
+            <div className="credentials">
+                Web Developer / Carpenter
+            </div>
+        </div>
       <div className="link-container">
         <div className="links">
           <Link to="/work">

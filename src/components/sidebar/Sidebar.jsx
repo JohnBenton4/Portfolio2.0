@@ -3,8 +3,9 @@ import "./sidebar.css";
 
 const Sidebar = () => {
   return (
-    <aside className="aside">
-      <nav className="nav">
+    <>
+      <aside className="aside">
+        <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">
               <a href="/" className="home-button">
@@ -27,12 +28,17 @@ const Sidebar = () => {
               </a>
             </li>
           </ul>
-      </nav>
+        </nav>
 
-      <div className="nav__footer">
-        <span className="copyright">&copy; 2023</span>
+        <div className="nav__footer">
+          <span className="copyright">&copy; 2023</span>
+        </div>
+      </aside>
+
+      <div className="nav__toggle">
+        <i className="icon-menu"></i>
       </div>
-    </aside>
+    </>
   );
 };
 

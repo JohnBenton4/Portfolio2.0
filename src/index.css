@@ -1,13 +1,15 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Caudex:ital@1&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Italiana&family'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family=Italiana&family=Marcellus+SC&family=Noto+Sans+KR:wght@200&display=swap');
 
 /* CSS Variables */
 
 .about-title {
   font-size: 7rem;
 }
-
-
 
 
 :root {
@@ -17,18 +19,14 @@
   --text-color: hsl(0, 100%, 0%);
 
   /* Fonts  */
-  --body-font: "Caudex", serif;
-  /* --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25em; */
+  /* --body-font: "Caudex", serif; */
+  /* --body-font:'Italiana', serif; */
+  /* --body-font:'Marcellus SC', serif; */
+  /* --body-font:'Noto Sans KR', sans-serif; */
+ 
   --normal-font-size: 5rem;
   --small-font-size: 1.2rem;
   --smaller-font-size: 0.813rem;
-
-  /* Font Weight  */
-  /* --font-medium: 100;
-  --font-semibold: 300;
-  --font-bold: 400; */
 
   /* Box Shadow  */
   --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
@@ -40,12 +38,17 @@
 /* Responsive  */
 @media screen and (max-width: 1024px) {
   :root {
-    --h1-font-size: 1.5em;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1em;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
+    --normal-font-size: 4rem;
+    --small-font-size: 1.2rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --normal-font-size: 4rem;
+    --small-font-size: 1.2rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -90,18 +93,6 @@ a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-
-.img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-
 /* Reusable CSS  */
 
 .container {
@@ -109,33 +100,6 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-.grid {
-  display: grid;
-}
-
-.section {
-  padding-top: 7rem;
-  padding-bottom: 2rem;
-}
-
-.section__title {
-  font-size: var(--h1-font-size);
-  margin-left: 0.875rem;
-  font-weight: var(--font-bold);
-  position: relative;
-  margin-bottom: 3.75rem;
-}
-
-.section__title::before {
-  content: "";
-  /* background: url(./assets/dots-bg.svg); */
-  height: 2.25rem;
-  width: 2.25rem;
-  position: absolute;
-  left: -0.875rem;
-  top: -0.875rem;
 }
 
 .btn {
@@ -161,4 +125,19 @@ button {
 
 .btn:hover {
   animation: button-push 0.3s linear 1;
+}
+
+.links {
+  font-size: calc(0.1rem + 7vw); 
+  /* font-family:'Italiana', serif; */
+  font-family:'Marcellus SC', serif;
+}
+
+.intro {
+  font-family:'Noto Sans KR', sans-serif;
+
+}
+
+.name {
+  
 }
