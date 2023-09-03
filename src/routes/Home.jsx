@@ -11,7 +11,7 @@ export default function Home() {
     <div className="container">
         <div className="intro">
             <div className="name">
-            John Benton
+            JOHN BENTON
             </div>
             <div className="credentials">
                 Web Developer / Carpenter
@@ -24,6 +24,12 @@ export default function Home() {
           </Link>
           <Link to="/about">
             <h1>About</h1>
+          </Link>
+          <Link to="/about">
+            <h1>Resume</h1>
+          </Link>
+          <Link to="/about">
+            <h1>Contact</h1>
           </Link>
         </div>
       </div>

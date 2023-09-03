@@ -1,16 +1,11 @@
 /* Google Fonts */
-/* @import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Italiana&family'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family=Italiana&family=Marcellus+SC&family=Noto+Sans+KR:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital@1&family=Italiana&family=Marcellus+SC&family=Noto+Sans+KR:wght@200;600&display=swap");
 
 /* CSS Variables */
 
 .about-title {
   font-size: 7rem;
 }
-
 
 :root {
   /* Colors  */
@@ -23,7 +18,7 @@
   /* --body-font:'Italiana', serif; */
   /* --body-font:'Marcellus SC', serif; */
   /* --body-font:'Noto Sans KR', sans-serif; */
- 
+
   --normal-font-size: 5rem;
   --small-font-size: 1.2rem;
   --smaller-font-size: 0.813rem;
@@ -36,11 +31,52 @@
 }
 
 /* Responsive  */
+@media screen and (max-width: 4000px) {
+  :root {
+    --normal-font-size: 4rem;
+    --small-font-size: 1.2rem;
+    --smaller-font-size: 0.813rem;
+  }
+  .container {
+    display: flex;
+    min-height:100%;
+    padding-left: 200px;
+    padding-right: 15px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  :root {
+    --normal-font-size: 4rem;
+    --small-font-size: 1.2rem;
+    --smaller-font-size: 0.813rem;
+  }
+  .container {
+    display: flex;
+    /* min-height:100%; */
+    padding-left: 200px;
+    padding-right: 15px;
+    margin: 0 auto;
+    height: 100vh;  
+  min-height: 100vh;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   :root {
     --normal-font-size: 4rem;
     --small-font-size: 1.2rem;
     --smaller-font-size: 0.813rem;
+  }
+  .container {
+    display: inline-block;
+    min-height:100%;
+    padding-left: 200px;
+    padding-right: 15px;
+    margin: 0 auto;
   }
 }
 
@@ -49,6 +85,13 @@
     --normal-font-size: 4rem;
     --small-font-size: 1.2rem;
     --smaller-font-size: 0.813rem;
+  }
+  .container {
+    display: inline-block;
+    min-height:100%;
+    padding-left: 200px;
+    padding-right: 15px;
+    margin: 0 auto;
   }
 }
 
@@ -61,6 +104,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body,
@@ -75,6 +119,7 @@ body {
   background-color: var(--body-color);
   line-height: 1.7;
   color: var(--text-color);
+  
 }
 
 h1,
@@ -82,7 +127,7 @@ h2,
 h3 {
   color: var(--text-color);
   font-weight: var(--font-semibold);
-  line-height: 1.2;
+  line-height: 0.9;
 }
 
 ul {
@@ -94,14 +139,6 @@ a {
 }
 
 /* Reusable CSS  */
-
-.container {
-  max-width: 1080px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 .btn {
   padding: 0.75rem 2rem;
   line-height: 1;
@@ -127,14 +164,25 @@ a {
   animation: button-push 0.3s linear 1;
 }
 
-.links {
-  font-size: calc(0.1rem + 7vw); 
-  /* font-family:'Italiana', serif; */
-  font-family:'Marcellus SC', serif;
-}
-
 .intro {
-  font-family:'Noto Sans KR', sans-serif;
-
+  font-family: "Noto Sans KR", sans-serif;
+padding-top: 50%;
+padding-bottom: 3vh;
 }
 
+.name {
+  font-size: calc(0.1rem + 1.5vw);
+  font-weight: 600;
+}
+
+.credentials {
+  font-size: calc(0.1rem + 1.5vw);
+  font-weight: 200;
+}
+
+.links {
+  font-size: calc(0.1rem + 7vw);
+  font-family: "Italiana", serif;
+  /* font-family:'Marcellus SC', serif; */
+  padding-left: 10%;
+}
