@@ -8,9 +8,26 @@ const About = () => {
       {/* <button className="btn" onClick={() => navigate(-1)}>
         Go Back{" "}
       </button> */}
-      <div className="about-title">
+      <section className="about-title">
         <h1>About</h1>
-      </div>
+      </section>
+      <section className="hello">
+        <h3>I'm John. A developer, a designer, and a problem solver.</h3>
+      </section>
+      <section className="experience">
+        <h4>Experience</h4>
+      </section>
+      <br></br>
+      <ul className="experience-details">
+        <li></li>
+      </ul>
+      <section className="skills">
+        <h4>Skills</h4>
+      </section>
+      <br></br>
+      <ul className="skills-details">
+        <li></li>
+      </ul>
     </div>
   );
 };

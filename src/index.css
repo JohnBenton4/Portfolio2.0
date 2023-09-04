@@ -31,6 +31,28 @@
 }
 
 /* Responsive  */
+@media screen and (max-width: 4400px) {
+  :root {
+    --normal-font-size: 4rem;
+    --small-font-size: 1.2rem;
+    --smaller-font-size: 0.813rem;
+  }
+  .container {
+    display: flex;
+    /* min-height: 100%; */
+    padding-left: 200px;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+    height: 100vh;
+  }
+  .intro {
+    font-family: "Noto Sans KR", sans-serif;
+    padding-top: 40%;
+    padding-bottom: 3vh;
+  }
+}
 @media screen and (max-width: 2400px) {
   :root {
     --normal-font-size: 4rem;
@@ -46,6 +68,11 @@
     margin-bottom: 5vh;
     margin: 0 auto;
     height: 100vh;
+  }
+  .intro {
+    font-family: "Noto Sans KR", sans-serif;
+    padding-top: 50%;
+    padding-bottom: 3vh;
   }
 }
 
@@ -64,6 +91,11 @@
     height: 100vh;
     height: 100vh;
   }
+  .intro {
+    font-family: "Noto Sans KR", sans-serif;
+    padding-top: 50%;
+    padding-bottom: 3vh;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -74,11 +106,13 @@
   }
   .container {
     display: inline-block;
-    /* min-height: 100%; */
-    padding-left: 200px;
+    padding-left: 25%;
     padding-right: 15px;
     margin: 0 auto;
-    height: 100vh;
+  }
+  .intro {
+    padding-top: 30%;
+
   }
 }
 
@@ -91,8 +125,9 @@
   .container {
     display: inline-block;
     min-height: 100%;
-    padding-left: 200px;
+    padding-left: 25%;
     padding-right: 15px;
+    justify-content: center;
     margin: 0 auto;
   }
 }
@@ -170,11 +205,6 @@ a {
   animation: button-push 0.3s linear 1;
 }
 
-.intro {
-  font-family: "Noto Sans KR", sans-serif;
-  padding-top: 50%;
-  padding-bottom: 3vh;
-}
 
 .name {
   font-size: calc(0.1rem + 1.5vw);
