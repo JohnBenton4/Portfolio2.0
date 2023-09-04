@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./sidebar.css";
 
 const Sidebar = () => {
+  const [toggle, showMenu] = useState(false);
   return (
     <>
-      <aside className="aside">
+      <aside className={toggle ? "aside show-menu" : "aside"}>
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">
@@ -35,7 +36,7 @@ const Sidebar = () => {
         </div>
       </aside>
 
-      <div className="nav__toggle">
+      <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
         <i className="icon-menu"></i>
       </div>
     </>
