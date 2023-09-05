@@ -37,7 +37,7 @@
     --small-font-size: 1.2rem;
     --smaller-font-size: 0.813rem;
   }
-  .container {
+  .container-home {
     display: flex;
     /* min-height: 100%; */
     padding-left: 200px;
@@ -47,6 +47,13 @@
     margin: 0 auto;
     height: 100vh;
   }
+
+  .container-about {
+    display: flex;
+    padding-left: 25%;
+    padding-right: 15px;
+  }
+
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 40%;
@@ -59,7 +66,7 @@
     --small-font-size: 1.2rem;
     --smaller-font-size: 0.813rem;
   }
-  .container {
+  .container-home {
     display: flex;
     /* min-height: 100%; */
     padding-left: 200px;
@@ -69,6 +76,13 @@
     margin: 0 auto;
     height: 100vh;
   }
+
+  .container-about {
+    display: flex;
+    padding-left: 25%;
+    padding-right: 15px;
+  }
+
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 50%;
@@ -82,7 +96,7 @@
     --small-font-size: 1.2rem;
     --smaller-font-size: 0.813rem;
   }
-  .container {
+  .container-home {
     display: flex;
     /* min-height:100%; */
     padding-left: 200px;
@@ -90,6 +104,15 @@
     margin: 0 auto;
     height: 100vh;
     height: 100vh;
+  }
+  .container-about {
+    display: flex;
+    padding-left: 25%;
+    padding-right: 15px;
+  }
+
+  .about-left {
+    /* display: flex; */
   }
   .intro {
     font-family: "Noto Sans KR", sans-serif;
@@ -104,15 +127,21 @@
     --small-font-size: 1.2rem;
     --smaller-font-size: 0.813rem;
   }
-  .container {
+  .container-home {
     display: inline-block;
     padding-left: 25%;
     padding-right: 15px;
     margin: 0 auto;
   }
+
+  .container-about {
+    display: flexbox;
+    padding-left: 25%;
+    padding-right: 15px;
+  }
+
   .intro {
     padding-top: 30%;
-
   }
 }
 
@@ -122,13 +151,16 @@
     --small-font-size: 1.2rem;
     --smaller-font-size: 0.813rem;
   }
-  .container {
+  .container-home {
     display: inline-block;
     min-height: 100%;
     padding-left: 25%;
     padding-right: 15px;
     justify-content: center;
     margin: 0 auto;
+  }
+  .container-about {
+    /* display: flex; */
   }
 }
 
@@ -205,7 +237,7 @@ a {
   animation: button-push 0.3s linear 1;
 }
 
-
+/* Home Page */
 .name {
   font-size: calc(0.1rem + 1.5vw);
   font-weight: 600;
@@ -221,4 +253,44 @@ a {
   font-family: "Italiana", serif;
   /* font-family:'Marcellus SC', serif; */
   padding-left: 10%;
+}
+
+/* About Page  */
+.about-title {
+  font-size: calc(0.1rem + 7vw);
+  font-family: "Italiana", serif;
+}
+
+.hello {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: calc(0.8rem + 2vw);
+  margin-bottom: 3vh;
+}
+
+.quote {
+  font-size: calc(0.3rem + 2vw);
+  padding-bottom: 3vh;
+}
+
+.experience {
+  font-family: "Noto Sans KR", sans-serif;
+
+  font-size: calc(0.3rem + 2vw);
+  padding-bottom: 3vh;
+}
+
+.experience-details {
+  font-size: calc(0.5rem + 1vw);
+  padding-top: 1vh;
+}
+
+.skills {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: calc(0.3rem + 2vw);
+  padding-bottom: 3vh;
+}
+
+.skills-details {
+  font-size: calc(0.5rem + 1vw);
+  padding-top: 1vh;
 }
