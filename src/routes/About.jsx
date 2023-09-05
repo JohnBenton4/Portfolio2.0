@@ -14,20 +14,37 @@ export default function About() {
           <br></br>
           <section className="hello">
             <h3>I'm John. A developer, a designer, and a problem solver.</h3>
+          
+            <p class="about-me">
+            I'm a developer with a background in music. My dream is to build
+            beautiful websites to help people solve problems. I believe I can
+            have a positive global impact, and I am extremely excited for the
+            opportunities that await me in the near future.
+            <br />
+            If I'm not behind the computer, you can find me spending quality
+            time with my family, building a piece of bespoke furniture, or
+            traveling the world to experience delicious food and breathtaking
+            scenery.
+          </p>
           </section>
           <section className="quote">
-            <p>This will be a quote of some kind</p>
+            <p>"This will be a quote of some kind"</p>
           </section>
           <section className="experience">
             <h3>Experience</h3>
             <ul className="experience-details">
-              <li>This is a list item</li>
+              <li>- Degrees in Music Education and Percussion Performance</li>
+              <li>- 2 years of experience in Web Development</li>
+              <li>- 5 years of experience in Finance</li>
+
+
             </ul>
           </section>
           <section className="skills">
             <h3>Skills</h3>
             <ul className="skills-details">
-              <li>Here are some skills</li>
+              <li>Javascript/React.JS/Node.JS/Express.JS/Angular.JS/
+                RestfulAPI/PostgreSQL/Bootstrap/HTML/CSS/Project Management/Education/Music/Woodworker</li>
             </ul>
           </section>
         </section>

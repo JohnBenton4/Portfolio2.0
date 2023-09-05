@@ -50,8 +50,11 @@
 
   .container-about {
     display: flex;
-    padding-left: 25%;
+    padding-left: 15%;
     padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
   }
 
   .intro {
@@ -79,8 +82,11 @@
 
   .container-about {
     display: flex;
-    padding-left: 25%;
+    padding-left: 15%;
     padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
   }
 
   .intro {
@@ -107,8 +113,11 @@
   }
   .container-about {
     display: flex;
-    padding-left: 25%;
+    padding-left: 15%;
     padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
   }
 
   .about-left {
@@ -136,8 +145,11 @@
 
   .container-about {
     display: flexbox;
-    padding-left: 25%;
+    padding-left: 15%;
     padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
   }
 
   .intro {
@@ -251,7 +263,6 @@ a {
 .links {
   font-size: calc(0.1rem + 7vw);
   font-family: "Italiana", serif;
-  /* font-family:'Marcellus SC', serif; */
   padding-left: 10%;
 }
 
@@ -262,18 +273,26 @@ a {
 }
 
 .about-left {
-  max-width: 30%;
+  max-width: 40%;
 }
 
 .hello {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: calc(0.8rem + 2vw);
+  font-size: calc(0.7rem + 2vw);
   margin-bottom: 3vh;
 }
 
+.about-me {
+  font-size: calc(0.1rem + 1vw);
+  font-family: "Noto Sans KR", sans-serif;
+  padding-top: 1vh;
+}
+
 .quote {
-  font-size: calc(0.3rem + 2vw);
+  font-size: calc(0.2rem + 2vw);
   padding-bottom: 3vh;
+  font-family: "Italiana", serif;
+  font-weight: bold;
 }
 
 .experience {
@@ -283,23 +302,23 @@ a {
 }
 
 .experience-details {
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.3rem + 1vw);
   padding-top: 1vh;
 }
 
 .skills {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: calc(0.3rem + 2vw);
+  font-size: calc(0.2rem + 2vw);
   padding-bottom: 3vh;
 }
 
 .skills-details {
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.3rem + 1vw);
   padding-top: 1vh;
 }
 
-.about-right img{
+.about-right img {
   height: 80vh;
   padding-top: 10vh;
-  padding-left: 10vw;
+  padding-left: 15vw;
 }
