@@ -21,7 +21,7 @@ export default function Home() {
             <Link to="/resume">
               <h1>Resume</h1>
             </Link>
-            <Link to="/about">
+            <Link to="/contact">
               <h1>Contact</h1>
             </Link>
           </div>

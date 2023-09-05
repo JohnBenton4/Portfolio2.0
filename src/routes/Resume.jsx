@@ -39,7 +39,7 @@ export default function Resume() {
               <img src={css} alt="css" />
               <img src={git} alt="git" />
               <img src={html} alt="html" />
-              <img src={javascript} alt="javascript" />
+              <img src={javascript} alt="javascript" className="js"/>
               <br />
               <img src={nodejs} alt="nodejs" />
               <img src={react} alt="react" />
@@ -48,56 +48,59 @@ export default function Resume() {
           </section>
         </div>
         <hr />
-        <div className="bottom">
-          <div>
-            <h2 className="underline">PROJECTS</h2>
-            <div className="projects">
-              <a href="/introvert_empowerment/introvert-empowerment.html">
-                <h3>Introvert Empowerment</h3>
-              </a>
-              <p>10/2022</p>
-              <p>
-                DigitalCrafts full-stack group project for introverts that are
-                working toward becoming more outgoing.
-              </p>
-            </div>
-            <div className="projects">
-              <a href="/date_idea_app/date-idea-app.html">
-                <h3>Date Idea App</h3>
-              </a>
-              <p>09/2022</p>
-              <p>
-                DigitalCrafts individual back-end project designed to assist
-                people who want to plan a date with their significant other or
-                and group activity with friends.
-              </p>
-            </div>
-            <div className="projects">
-              <a href="/mood_game/mood-game.html">
-                <h3>Mood Game</h3>
-              </a>
-              <p>06/2022</p>
-              <p>
-                DigitalCrafts group front-end project helping people feel better
-                through jokes and trivia.
-              </p>
-            </div>
+        <section className="project">
+          <h2 className="underline">PROJECTS</h2>
+          <div className="projects">
+            <a href="/introvert_empowerment/introvert-empowerment.html">
+              <h3>Introvert Empowerment</h3>
+            </a>
+            <p>10/2022</p>
+            <p>
+              DigitalCrafts full-stack group project for introverts that are
+              working toward becoming more outgoing.
+            </p>
           </div>
-<hr />
-          <div>
-            <h2 className="underline">CAREER HISTORY</h2>
-            <div className="career">
-              <h3>Financial Analyst</h3>
-              <p>11/2017 | Duluth, GA</p>
-              <p>Primerica</p>
-            </div>
-            <div className="career">
-              <h3>Director of Percussion Programs</h3>
-              <p>08/2014-10/2017 | Atlanta, GA</p>
-              <p>The Westminster Schools</p>
-            </div>
+          <div className="projects">
+            <a href="/date_idea_app/date-idea-app.html">
+              <h3>Date Idea App</h3>
+            </a>
+            <p>09/2022</p>
+            <p>
+              DigitalCrafts individual back-end project designed to assist
+              people who want to plan a date with their significant other or and
+              group activity with friends.
+            </p>
           </div>
-        </div>
+          <div className="projects">
+            <a href="/mood_game/mood-game.html">
+              <h3>Mood Game</h3>
+            </a>
+            <p>06/2022</p>
+            <p>
+              DigitalCrafts group front-end project helping people feel better
+              through jokes and trivia.
+            </p>
+          </div>
+        </section>
+        <hr />
+        <section className="career-history">
+          <h2 className="underline">CAREER HISTORY</h2>
+          <div className="career">
+            <h3>Operations Lead/Tech Lead</h3>
+            <p> 2023 | Alpharetta, GA</p>
+            <p>N-Hance</p>
+          </div>
+          <div className="career">
+            <h3>Senior Financial Analyst</h3>
+            <p>2017-2023 | Duluth, GA</p>
+            <p>Primerica</p>
+          </div>
+          <div className="career">
+            <h3>Director of Percussion Programs</h3>
+            <p>2014-2017 | Atlanta, GA</p>
+            <p>The Westminster Schools</p>
+          </div>
+        </section>
       </div>
     </>
   );

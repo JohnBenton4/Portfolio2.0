@@ -335,9 +335,6 @@ a {
   margin-bottom: 4vh;
 }
 
-
-
-
 /* Resume Page  */
 
 .container-resume {
@@ -345,7 +342,7 @@ a {
   padding: 4vh;
 }
 
- p{
+p {
   font-size: calc(0.4rem + 1vw);
 }
 
@@ -358,8 +355,12 @@ h3 {
   font-size: calc(0.3rem + 2vw);
 }
 
+.skills {
+margin-left: 10%;
+}
+
 .skills img {
-  max-height: 120px;
+  max-height: 90px;
   width: auto;
   padding: 7px;
 }
@@ -370,8 +371,13 @@ h3 {
 }
 .underline {
   text-decoration: underline gold;
+  padding-bottom: 6px;
 }
 
-.bottom {
+.project {
+  padding-top: 4vh;
+}
+
+.career-history {
   padding-top: 4vh;
 }
