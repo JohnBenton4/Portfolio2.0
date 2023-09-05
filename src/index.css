@@ -322,3 +322,15 @@ a {
   padding-top: 10vh;
   padding-left: 15vw;
 }
+
+.resume-button {
+  color: hsl(53, 19%, 91%);
+  background-color: #1a1818;
+  border-radius: 50px;
+  padding: 10px 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: calc(0.1rem + 2vw);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 4vh;
+}
