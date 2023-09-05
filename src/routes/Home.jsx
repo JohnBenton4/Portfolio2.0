@@ -18,7 +18,7 @@ export default function Home() {
             <Link to="/about">
               <h1>About</h1>
             </Link>
-            <Link to="/about">
+            <Link to="/resume">
               <h1>Resume</h1>
             </Link>
             <Link to="/about">

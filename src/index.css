@@ -334,3 +334,44 @@ a {
   display: inline-block;
   margin-bottom: 4vh;
 }
+
+
+
+
+/* Resume Page  */
+
+.container-resume {
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 4vh;
+}
+
+ p{
+  font-size: calc(0.4rem + 1vw);
+}
+
+h2 {
+  font-size: calc(1rem + 2vw);
+}
+
+h3 {
+  padding: 2vh;
+  font-size: calc(0.3rem + 2vw);
+}
+
+.skills img {
+  max-height: 120px;
+  width: auto;
+  padding: 7px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.underline {
+  text-decoration: underline gold;
+}
+
+.bottom {
+  padding-top: 4vh;
+}
