@@ -261,6 +261,10 @@ a {
   font-family: "Italiana", serif;
 }
 
+.about-left {
+  max-width: 30%;
+}
+
 .hello {
   font-family: "Noto Sans KR", sans-serif;
   font-size: calc(0.8rem + 2vw);
@@ -274,7 +278,6 @@ a {
 
 .experience {
   font-family: "Noto Sans KR", sans-serif;
-
   font-size: calc(0.3rem + 2vw);
   padding-bottom: 3vh;
 }
@@ -293,4 +296,10 @@ a {
 .skills-details {
   font-size: calc(0.5rem + 1vw);
   padding-top: 1vh;
+}
+
+.about-right img{
+  height: 80vh;
+  padding-top: 10vh;
+  padding-left: 10vw;
 }

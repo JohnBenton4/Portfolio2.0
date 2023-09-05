@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../components/sidebar/Sidebar";
+import profilePicSmall from "../assets/profilePicSmall.jpg";
 
 export default function About() {
   return (
@@ -31,7 +32,7 @@ export default function About() {
           </section>
         </section>
         <section className="about-right">
-          This is a photo.
+          <img src={profilePicSmall} alt="profilePicSmall" />
         </section>
       </div>
     </>
