@@ -340,6 +340,7 @@ a {
 .container-resume {
   font-family: "Noto Sans KR", sans-serif;
   padding: 4vh;
+  margin-left: 9vw;
 }
 
 p {
@@ -351,10 +352,13 @@ h2 {
 }
 
 h3 {
-  padding: 2vh;
+  /* padding: 2vh; */
   font-size: calc(0.3rem + 2vw);
 }
 
+.resume-credentials {
+  padding-top: 4vh;
+}
 .skills {
 margin-left: 10%;
 }
@@ -371,13 +375,23 @@ margin-left: 10%;
 }
 .underline {
   text-decoration: underline gold;
-  padding-bottom: 6px;
+  /* padding-bottom: 1vh; */
 }
 
 .project {
   padding-top: 4vh;
 }
 
+.projects {
+  padding-top: 4vh;
+
+}
+
 .career-history {
   padding-top: 4vh;
+}
+
+.career {
+  padding-top: 4vh;
+
 }

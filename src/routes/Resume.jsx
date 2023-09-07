@@ -6,10 +6,14 @@ import javascript from "../assets/javascript.png";
 import nodejs from "../assets/nodejs.png";
 import react from "../assets/react.png";
 import vscode from "../assets/vscode.png";
+import Sidebar from "../components/sidebar/Sidebar";
+
 
 export default function Resume() {
   return (
     <>
+          <Sidebar />
+
       <div className="container-resume">
         <div className="top">
           <section className="left-top">
