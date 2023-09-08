@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sidebar from "../components/sidebar/Sidebar";
 import profilePicSmall from "../assets/profilePicSmall.jpg";
 import developerResume from "../assets/developerResume.pdf";
 
 export default function About() {
+  useEffect(() => {
+    document.title = "John Benton - About";
+  }, []);
   return (
     <>
       <Sidebar />
@@ -51,8 +54,13 @@ export default function About() {
             </ul>
           </section>
 
-          <a href={developerResume} target="_blank" rel="noreferrer" className="resume-button">
-          Resume
+          <a
+            href={developerResume}
+            target="_blank"
+            rel="noreferrer"
+            className="resume-button"
+          >
+            Resume
           </a>
         </section>
         <section className="about-right">

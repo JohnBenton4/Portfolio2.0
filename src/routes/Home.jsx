@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import Sidebar from "../components/sidebar/Sidebar";
+import React, { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "John Benton - Home";
+  }, []);
+
   return (
     <>
       <Sidebar />

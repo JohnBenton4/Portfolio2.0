@@ -12,20 +12,11 @@
   --container-color: hsl(53, 19%, 91%);
   --body-color: hsl(53, 19%, 91%);
   --text-color: hsl(0, 100%, 0%);
-
-  /* Fonts  */
-  /* --body-font: "Caudex", serif; */
-  /* --body-font:'Italiana', serif; */
-  /* --body-font:'Marcellus SC', serif; */
-  /* --body-font:'Noto Sans KR', sans-serif; */
-
   --normal-font-size: 5rem;
   --small-font-size: 1.2rem;
   --smaller-font-size: 0.813rem;
-
   /* Box Shadow  */
   --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
-
   /* Border Radius  */
   --border-radius: 20px;
 }
@@ -47,7 +38,6 @@
     margin: 0 auto;
     height: 100vh;
   }
-
   .container-about {
     display: flex;
     padding-left: 15%;
@@ -56,7 +46,21 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
-
+  .container-contact {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  .container-resume {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 40%;
@@ -79,7 +83,6 @@
     margin: 0 auto;
     height: 100vh;
   }
-
   .container-about {
     display: flex;
     padding-left: 15%;
@@ -88,7 +91,21 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
-
+  .container-contact {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  .container-resume {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 50%;
@@ -104,7 +121,6 @@
   }
   .container-home {
     display: flex;
-    /* min-height:100%; */
     padding-left: 200px;
     padding-right: 15px;
     margin: 0 auto;
@@ -119,10 +135,22 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
-
-  .about-left {
-    /* display: flex; */
+  .container-contact {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
   }
+  .container-resume {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 50%;
@@ -142,7 +170,6 @@
     padding-right: 15px;
     margin: 0 auto;
   }
-
   .container-about {
     display: flexbox;
     padding-left: 15%;
@@ -151,7 +178,21 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
-
+  .container-contact {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  .container-resume {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
   .intro {
     padding-top: 30%;
   }
@@ -182,17 +223,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 html,
 body {
   margin: 0px;
   height: 100%;
 }
-
 body,
 button,
 input,
@@ -200,13 +238,11 @@ textarea {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
-
 body {
   background-color: var(--body-color);
   line-height: 1.7;
   color: var(--text-color);
 }
-
 h1,
 h2,
 h3 {
@@ -214,11 +250,9 @@ h3 {
   font-weight: var(--font-semibold);
   line-height: 0.9;
 }
-
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
@@ -234,12 +268,10 @@ a {
   background-color: var(--body-color);
   font-weight: var(--font-bold);
 }
-
 @keyframesbutton-push {
   50% {
     transform: scale(0.8);
   }
-
   100% {
     transform: scale(1);
   }
@@ -254,12 +286,10 @@ a {
   font-size: calc(0.1rem + 1.5vw);
   font-weight: 600;
 }
-
 .credentials {
   font-size: calc(0.1rem + 1.5vw);
   font-weight: 200;
 }
-
 .links {
   font-size: calc(0.1rem + 7vw);
   font-family: "Italiana", serif;
@@ -267,62 +297,52 @@ a {
 }
 
 /* About Page  */
+.about-left {
+  max-width: 40%;
+}
 .about-title {
   font-size: calc(0.1rem + 7vw);
   font-family: "Italiana", serif;
 }
-
-.about-left {
-  max-width: 40%;
-}
-
 .hello {
   font-family: "Noto Sans KR", sans-serif;
   font-size: calc(0.7rem + 2vw);
   margin-bottom: 3vh;
 }
-
 .about-me {
   font-size: calc(0.1rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
   padding-top: 1vh;
 }
-
 .quote {
   font-size: calc(0.2rem + 2vw);
   padding-bottom: 3vh;
   font-family: "Italiana", serif;
   font-weight: bold;
 }
-
 .experience {
   font-family: "Noto Sans KR", sans-serif;
   font-size: calc(0.3rem + 2vw);
   padding-bottom: 3vh;
 }
-
 .experience-details {
   font-size: calc(0.3rem + 1vw);
   padding-top: 1vh;
 }
-
 .skills {
   font-family: "Noto Sans KR", sans-serif;
   font-size: calc(0.2rem + 2vw);
   padding-bottom: 3vh;
 }
-
 .skills-details {
   font-size: calc(0.3rem + 1vw);
   padding-top: 1vh;
 }
-
 .about-right img {
   height: 80vh;
   padding-top: 10vh;
   padding-left: 15vw;
 }
-
 .resume-button {
   color: hsl(53, 19%, 91%);
   background-color: #1a1818;
@@ -337,39 +357,32 @@ a {
 
 /* Resume Page  */
 
-.container-resume {
-  font-family: "Noto Sans KR", sans-serif;
-  padding: 4vh;
-  margin-left: 9vw;
-}
 
+.resume-title {
+    font-size: calc(0.1rem + 7vw);
+    font-family: "Italiana", serif;
+}
 p {
   font-size: calc(0.4rem + 1vw);
 }
-
 h2 {
   font-size: calc(1rem + 2vw);
 }
-
 h3 {
-  /* padding: 2vh; */
   font-size: calc(0.3rem + 2vw);
 }
-
 .resume-credentials {
   padding-top: 4vh;
 }
 .skills {
-margin-left: 10%;
-padding-top: 3vh;
+  margin-left: 10%;
+  padding-top: 3vh;
 }
-
 .skills img {
   max-height: 90px;
   width: auto;
   padding: 7px;
 }
-
 .top {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -378,21 +391,35 @@ padding-top: 3vh;
   text-decoration: underline gold;
   /* padding-bottom: 1vh; */
 }
-
 .project {
   padding-top: 4vh;
 }
-
 .projects {
   padding-top: 4vh;
-
 }
-
 .career-history {
   padding-top: 4vh;
 }
-
 .career {
   padding-top: 4vh;
+}
 
+/* Contact Page  */
+
+
+.greeting {
+  max-width: 40%;
+  container-color: hsl(53, 19%, 91%);
+  body-color: hsl(53, 19%, 91%);
+  text-color: hsl(0, 100%, 0%);
+
+}
+.contact-title {
+  font-size: calc(0.1rem + 7vw);
+  font-family: "Italiana", serif;
+}
+.contact-info {
+  font-size: calc(0.2rem + 1vw);
+  font-family: "Noto Sans KR", sans-serif;
+  padding-top: 1vh;
 }

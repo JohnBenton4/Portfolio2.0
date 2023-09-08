@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "../assets/css.png";
 import git from "../assets/git.jpeg";
 import html from "../assets/html.png";
@@ -8,13 +8,19 @@ import react from "../assets/react.png";
 import vscode from "../assets/vscode.png";
 import Sidebar from "../components/sidebar/Sidebar";
 
-
 export default function Resume() {
+  useEffect(() => {
+    document.title = "John Benton - Resume";
+  }, []);
   return (
     <>
-          <Sidebar />
+      <Sidebar />
 
       <div className="container-resume">
+        <section className="resume-title">
+          <h1>Resume</h1>
+        </section>
+        <br></br>
         <div className="top">
           <section className="left-top">
             <h2 className="underline">EDUCATION</h2>
@@ -43,7 +49,7 @@ export default function Resume() {
               <img src={css} alt="css" />
               <img src={git} alt="git" />
               <img src={html} alt="html" />
-              <img src={javascript} alt="javascript" className="js"/>
+              <img src={javascript} alt="javascript" className="js" />
               <br />
               <img src={nodejs} alt="nodejs" />
               <img src={react} alt="react" />
