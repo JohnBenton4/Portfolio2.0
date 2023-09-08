@@ -13,7 +13,7 @@ export default function Home() {
       <div className="container-home">
         <div className="intro">
           <div className="name">JOHN BENTON</div>
-          <div className="credentials">Web Developer / Carpenter</div>
+          <div className="credentials">Web Developer / Designer</div>
         </div>
         <div className="link-container">
           <div className="links">

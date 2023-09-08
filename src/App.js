@@ -5,6 +5,7 @@ const About = lazy(() => import("./routes/About"));
 const Work = lazy(() => import("./routes/Work"));
 const Resume = lazy(() => import("./routes/Resume"));
 const Contact = lazy(() => import("./routes/Contact"));
+const DateApp = lazy(() => import("./routes/DateApp"));
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
           <Route path="/work" element={<Work />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/dateapp" element={<DateApp />} />
+
         </Routes>
       </Suspense>
     </>

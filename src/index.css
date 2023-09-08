@@ -9,9 +9,9 @@
 
 :root {
   /* Colors  */
-  --container-color: hsl(53, 19%, 91%);
-  --body-color: hsl(53, 19%, 91%);
-  --text-color: hsl(0, 100%, 0%);
+  --container-color: hsl(52, 17%, 91%);
+  --body-color: hsl(52, 17%, 91%);
+  --text-color: hsl(0, 0%, 0%);
   --normal-font-size: 5rem;
   --small-font-size: 1.2rem;
   --smaller-font-size: 0.813rem;
@@ -55,6 +55,14 @@
     margin: 0 auto;
   }
   .container-resume {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  .container-work {
+    display: flex;
     padding-left: 15%;
     padding-right: 15px;
     padding-top: 5vh;
@@ -106,6 +114,14 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
+  .container-work {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 50%;
@@ -150,7 +166,14 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
-  
+  .container-work {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 50%;
@@ -187,6 +210,14 @@
     margin: 0 auto;
   }
   .container-resume {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  .container-work {
+    display: flex;
     padding-left: 15%;
     padding-right: 15px;
     padding-top: 5vh;
@@ -406,19 +437,33 @@ h3 {
 
 /* Contact Page  */
 
-
 .greeting {
   max-width: 40%;
-  container-color: hsl(53, 19%, 91%);
-  body-color: hsl(53, 19%, 91%);
-  text-color: hsl(0, 100%, 0%);
-
+  color: hsl(52, 17%, 91%)
 }
 .contact-title {
   font-size: calc(0.1rem + 7vw);
   font-family: "Italiana", serif;
 }
 .contact-info {
+  font-size: calc(0.2rem + 1vw);
+  font-family: "Noto Sans KR", sans-serif;
+  padding-top: 1vh;
+}
+
+
+/* Work Page  */
+
+.greeting {
+  max-width: 40%;
+  color: hsl(52, 17%, 91%)
+}
+.work-title {
+  font-size: calc(0.1rem + 7vw);
+  font-family: "Italiana", serif;
+}
+
+.work-info {
   font-size: calc(0.2rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
   padding-top: 1vh;

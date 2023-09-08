@@ -1,17 +1,18 @@
 import React, { useEffect } from "react";
-import Sidebar from "../components/sidebar/Sidebar";
+import Sidebar2 from "../components/sidebar2/Sidebar2";
 
 export default function Contact() {
   useEffect(() => {
     document.title = "John Benton - Contact";
+    document.body.style.backgroundColor = "rgb(0,0,0)";
   }, []);
   return (
     <>
-      <Sidebar />
+      <Sidebar2 />
       <div className="container-contact">
         <section className="greeting">
           <div className="contact-title">
-            <h1>Hello</h1>
+            <h1 style= {{color: 'rgb(236, 235, 228)'}}>Hello</h1>
           </div>
           <br></br>
           <section className="contact-info">

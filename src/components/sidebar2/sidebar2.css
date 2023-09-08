@@ -2,8 +2,8 @@
     position: fixed;
     left: 0;
     top: 0;
-    background: var(--body-color);
-    border-right: 1px solid rgba(0, 0, 0, 0.05 );
+    background: var(--text-color);
+    border-right: 1px solid hsl(52, 17%, 91%);
     padding: 2.5rem;
     width: 110px;
     min-height: 100vh;
@@ -28,19 +28,19 @@
 }
 
 .home-button {
-    color: hsl(0, 0%, 0%);
+    color: hsl(52, 17%, 91%);
 }
 
 .linkedIn {
-    color: hsl(0, 0%, 0%);
+    color: hsl(52, 17%, 91%);
 }
 
 .gitHub {
-    color: hsl(0, 0%, 0%);
+    color: hsl(52, 17%, 91%);
 }
 
 .copyright {
-    color: hsl(0, 0%, 0%);
+    color: hsl(52, 17%, 91%);
     font-size: var(--small-font-size);
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
@@ -60,7 +60,7 @@
     align-items: center;
     z-index: 1;
     font-size: 2rem;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 1024px) {
