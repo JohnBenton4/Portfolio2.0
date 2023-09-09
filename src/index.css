@@ -468,3 +468,82 @@ h3 {
   font-family: "Noto Sans KR", sans-serif;
   padding-top: 1vh;
 }
+
+
+/* Date-App Page  */
+
+.name {
+  font-size: calc(0.1rem + 7vw);
+  font-family: "Italiana", serif;
+  padding: 1%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1em;
+  font-size: 18px;
+  color: rgb(0,0,0);
+  font-family: "Noto Sans KR", sans-serif;
+}
+.top-left {
+  padding: 5%;
+}
+.vision {
+  font-size: calc(0.7rem + 2vw);
+  margin-bottom: 2vh;
+}
+.design {
+  font-size: calc(0.7rem + 2vw);
+  margin-bottom: 2vh;
+  padding: 1%;
+}
+.unlist {
+  font-size: calc(0.1rem + 1vw);
+}
+.logistics {
+  font-size: calc(0.7rem + 2vw);
+  margin-bottom: 2vh;
+  padding: 1%;
+}
+.logistics-info {
+  font-size: calc(0.4rem + 1vw);
+}
+.date-idea-app-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40vw;
+  height: auto;
+}
+.grid2 {
+  gap: 1em;
+  font-size: 18px;
+  color: rgb(0,0,0);
+  font-family: "Noto Sans KR", sans-serif;
+}
+.mid-left {
+  padding: 2%;
+
+}
+.react-1-img {
+  max-width: 70vw;
+  height: auto;
+}
+.react-2-img {
+  max-width: 70vw;
+  height: auto;
+}
+.react-3-img {
+  max-width: 30vw;
+  height: auto;
+}
+.react-4-img {
+  max-width: 70vw;
+  height: auto;
+}
+.lower-left {
+  padding: 2%;
+}
+.bottom {
+  padding: 2%;
+}

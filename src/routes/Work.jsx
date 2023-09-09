@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Sidebar2 from "../components/sidebar2/Sidebar2";
-
+import { Link } from "react-router-dom";
 
 export default function Work() {
   useEffect(() => {
@@ -39,7 +39,9 @@ export default function Work() {
           </section>
         </section>
         <section className="work-right">
-<a></a>
+        <Link to="/dateApp">
+              <h1>Date App</h1>
+            </Link>
         </section>
       </div>
     </>

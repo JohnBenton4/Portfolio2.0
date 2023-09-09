@@ -7,10 +7,7 @@ const DateApp = () => {
     <>
 
     <p>This is a test</p>
-    <Link to="/page2"><button>
-              Go to Page 2 
-            </button>
-            </Link>
+ 
 
       {/* <div class="container">
         <h1 class="name">Date Idea App</h1>
