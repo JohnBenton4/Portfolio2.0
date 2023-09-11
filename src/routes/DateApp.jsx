@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Sidebar from "../components/sidebar/Sidebar";
 import reactImg from "../assets/react-img.jpeg";
 import React1 from "../assets/React-1.jpeg";
 import React2 from "../assets/React-2.jpeg";
@@ -12,8 +13,11 @@ export default function DateApp() {
 
   return (
     <>
-      <div className="container">
+          <Sidebar />
+      <div className="container-date">
         <h1 className="name">Date Idea App</h1>
+        <img src={reactImg} alt="reactImg" className="date-app-img" />
+
         <div className="grid">
           <section className="top-left">
             <h2 className="vision">Vision</h2>
@@ -50,19 +54,17 @@ export default function DateApp() {
             </p>
           </section>
           <section>
-            <img src={reactImg} alt="reactImg" className="date-idea-app-img" />
             <h2 className="logistics">Logistics</h2>
             <ul className="logistics-info">
               <li>Development: September 15 - 27</li>
               <li>
-                My roles: This was an insectionidual project, everything you see
-                was done by me.
+                My roles: This was an individual project.
               </li>
             </ul>
             <p></p>
           </section>
         </div>
-
+<br />
         <div className="grid2">
           <section className="mid-left">
             <h2 className="features">Features</h2>
@@ -92,15 +94,17 @@ export default function DateApp() {
               <p>
                 The project can be located here:
                 <a href="https://github.com/JohnBenton4/react-date-idea-app">
-                  Date Idea App
+                DATE APP
                 </a>
               </p>
               <p>
                 The live deployment can be found here:
-                <a href="https://date-idea-app.netlify.app/"> Live</a>
+                <a href="https://date-idea-app.netlify.app/"> LIVE</a>
               </p>
             </ul>
           </section>
+<br />
+<br />
 
           <section className="lower-left">
             <h2 className="code-examples">Code Examples</h2>
@@ -139,9 +143,12 @@ export default function DateApp() {
                 <img src={React4} alt="React4" className="react-4-img" />
             </ol>
           </section>
+          <br />
+          <br />
+
           <section className="bottom">
             <h2 className="reflect">Project Reflection</h2>
-            <p>
+            <p className="reflection-details">
               This was the first project that I worked on by myself. It was much
               easier to formulate a plan a strategy for this project and time
               management was much less complicated. There were many moments in
