@@ -76,6 +76,13 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
+  .container-introvert {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 40%;
@@ -130,6 +137,13 @@
     margin: 0 auto;
   }
   .container-date {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  .container-introvert {
     padding-left: 15%;
     padding-right: 15px;
     padding-top: 5vh;
@@ -195,6 +209,13 @@
     margin-bottom: 5vh;
     margin: 0 auto;
   }
+  .container-introvert {
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
   .intro {
     font-family: "Noto Sans KR", sans-serif;
     padding-top: 50%;
@@ -247,6 +268,13 @@
   }
   .container-date {
     display: flex;
+    padding-left: 15%;
+    padding-right: 15px;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 0 auto;
+  }
+  .container-introvert {
     padding-left: 15%;
     padding-right: 15px;
     padding-top: 5vh;
@@ -489,48 +517,29 @@ h3 {
   font-size: calc(0.1rem + 7vw);
   font-family: "Italiana", serif;
 }
-
 .work-info {
   font-size: calc(0.2rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
   padding-top: 1vh;
 }
+.work-right {
+  padding-left: 5vw;
+}
+.date-app-styles {
+  padding-bottom: 5vh;
+}
+.introvert-styles {
+  padding-bottom: 5vh;
+}
 
-/* Date-App Page  */
+/* App Pages  */
 
 .name {
   font-size: calc(0.1rem + 7vw);
   font-family: "Italiana", serif;
-padding-bottom: 5vh;}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1em;
-  font-size: 18px;
-  color: rgb(0, 0, 0);
-  font-family: "Noto Sans KR", sans-serif;
-}
-.vision {
-  font-size: calc(0.7rem + 2vw);
-  margin-bottom: 2vh;
-}
-.design {
-  font-size: calc(0.7rem + 2vw);
-  margin-bottom: 2vh;
-  margin-top: 2vh;
-  padding: 1%;
-}
-.unlist {
-  font-size: calc(0.1rem + 1vw);
-}
-.logistics {
-  font-size: calc(0.7rem + 2vw);
-  margin-bottom: 2vh;
-  margin-top: 2vh;
-  padding: 1%;
-}
-.logistics-info {
-  font-size: calc(0.4rem + 1vw);
+  padding-bottom: 5vh;
+  color: hsl(52, 17%, 91%);
+
 }
 .date-app-img {
   display: flex;
@@ -540,6 +549,58 @@ padding-bottom: 5vh;}
   margin-left: 15vw;
   /* height: auto; */
 }
+.homepage-img {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  max-width: 50vw;
+  margin-left: 15vw;
+  /* height: auto; */
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1em;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-family: "Noto Sans KR", sans-serif;
+}
+.top-left {
+  color: hsl(52, 17%, 91%);
+}
+/* .date-words {
+  color: hsl(52, 17%, 91%);
+
+} */
+.vision {
+  font-size: calc(0.7rem + 2vw);
+  margin-bottom: 2vh;
+  color: hsl(52, 17%, 91%);
+}
+.design {
+  font-size: calc(0.7rem + 2vw);
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  padding: 1%;
+  color: hsl(52, 17%, 91%);
+}
+.unlist {
+  font-size: calc(0.1rem + 1vw);
+}
+.logistic-section {
+  color: hsl(52, 17%, 91%);
+}
+.logistics {
+  font-size: calc(0.7rem + 2vw);
+  color: hsl(52, 17%, 91%);
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  padding: 1%;
+}
+.logistics-info {
+  font-size: calc(0.4rem + 1vw);
+}
+
 .grid2 {
   gap: 1em;
   font-size: 18px;
@@ -547,7 +608,7 @@ padding-bottom: 5vh;}
   font-family: "Noto Sans KR", sans-serif;
 }
 .mid-left {
-  /* padding: 2%; */
+  color: hsl(52, 17%, 91%);
 }
 .react-1-img {
   max-width: 70vw;
@@ -565,19 +626,35 @@ padding-bottom: 5vh;}
   max-width: 70vw;
   height: auto;
 }
+.introvert1-img {
+  max-width: 50vw;
+  height: auto;
+}
 .lower-left {
-  /* padding: 2%; */
+  color: hsl(52, 17%, 91%);
 }
 .features {
   font-size: calc(0.7rem + 2vw);
   margin-bottom: 2vh;
+  color: hsl(52, 17%, 91%);
+}
+.date-app-github {
+  color: hsl(52, 17%, 91%);
+}
+.date-app-live {
+  color: hsl(52, 17%, 91%);
 }
 .code-examples {
   font-size: calc(0.7rem + 2vw);
   margin-bottom: 2vh;
+  color: hsl(52, 17%, 91%);
 }
 .bottom {
-padding-bottom: 5vh;
+  padding-bottom: 5vh;
+  color: hsl(52, 17%, 91%);
+}
+.reflect {  
+color: hsl(52, 17%, 91%);
 }
 .reflection-details {
   padding-top: 2vh;

@@ -6,6 +6,8 @@ const Work = lazy(() => import("./routes/Work"));
 const Resume = lazy(() => import("./routes/Resume"));
 const Contact = lazy(() => import("./routes/Contact"));
 const DateApp = lazy(() => import("./routes/DateApp"));
+const IntrovertEmpowerment = lazy(() => import("./routes/IntrovertEmpowerment"));
+
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/dateApp" element={<DateApp />} />
+          <Route path="/introvertEmpowerment" element={<IntrovertEmpowerment />} />
+
 
         </Routes>
       </Suspense>

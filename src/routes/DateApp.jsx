@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Sidebar from "../components/sidebar/Sidebar";
+import Sidebar3 from "../components/sidebar3/Sidebar3";
 import reactImg from "../assets/react-img.jpeg";
 import React1 from "../assets/React-1.jpeg";
 import React2 from "../assets/React-2.jpeg";
@@ -9,11 +9,11 @@ import React4 from "../assets/React-4.jpeg";
 export default function DateApp() {
   useEffect(() => {
     document.title = "John Benton - Date App";
+    document.body.style.backgroundColor = "rgb(0,0,0)";
   }, []);
-
   return (
     <>
-          <Sidebar />
+      <Sidebar3 />
       <div className="container-date">
         <h1 className="name">Date Idea App</h1>
         <img src={reactImg} alt="reactImg" className="date-app-img" />
@@ -21,7 +21,7 @@ export default function DateApp() {
         <div className="grid">
           <section className="top-left">
             <h2 className="vision">Vision</h2>
-            <p>
+            <p className="date-words">
               My goal in this project was to create an app that could be used by
               people just like me. I have a hard time thinking of fun date
               ideas, and even when I do, often times I'm not sure where I could
@@ -29,35 +29,35 @@ export default function DateApp() {
               problems.
             </p>
             <h2 className="design">Design</h2>
-            <p>
+            <p className="date-words">
               A clear and clean UI was important for me on this project. The
               emphasis is on the functionality. A few notes about design:
             </p>
             <ul className="unlist">
-              <li>
+              <li >
                 - I wanted the UI to be unassuming (letting the user use it
                 inconspicuously if they needed to plan something as a surprise
                 while in the company of others)
               </li>
-              <li>
+              <li >
                 - There are three options to choose from, making it efficient
                 for the user
               </li>
-              <li>
+              <li >
                 - After choosing one of the first search options, the other two
                 submit buttons become disabled
               </li>
             </ul>
-            <p>
+            <p className="date-words">
               A small amount of bootstrap was used to give the submit buttons a
               streamlined look.
             </p>
           </section>
-          <section>
+          <section className="logistic-section">
             <h2 className="logistics">Logistics</h2>
             <ul className="logistics-info">
-              <li>Development: September 15 - 27</li>
-              <li>
+              <li >Development: September 15 - 27</li>
+              <li >
                 My roles: This was an individual project.
               </li>
             </ul>
@@ -68,38 +68,38 @@ export default function DateApp() {
         <div className="grid2">
           <section className="mid-left">
             <h2 className="features">Features</h2>
-            <p>
+            <p className="date-words">
               I really enjoyed working on this challenging project. I explored
               beyond the requirements to create a more technically complex
               application. Here are some of the features within my code:
             </p>
             <ul className="unlist">
-              <li>
+              <li >
                 -Discovered what CORS is and found a solution for CORS errors
               </li>
-              <li>
+              <li >
                 -Successfully fetched information from an API and then inserted
                 that information into a second API search to get the final
                 results
               </li>
-              <li>
+              <li >
                 -Disabled submit buttons after another submit button was clicked
               </li>
-              <li>
+              <li >
                 -Used basic bootstrap to streamline the look of the submit
                 buttons
               </li>
-              <li>-The use of useEffect to disable buttons</li>
+              <li >-The use of useEffect to disable buttons</li>
               <br />
-              <p>
+              <p className="date-words">
                 The project can be located here:
-                <a href="https://github.com/JohnBenton4/react-date-idea-app">
+                <a className="date-app-github" href="https://github.com/JohnBenton4/react-date-idea-app">
                 DATE APP
                 </a>
               </p>
-              <p>
+              <p className="date-words">
                 The live deployment can be found here:
-                <a href="https://date-idea-app.netlify.app/"> LIVE</a>
+                <a className="date-app-live" href="https://date-idea-app.netlify.app/"> LIVE</a>
               </p>
             </ul>
           </section>
@@ -108,9 +108,9 @@ export default function DateApp() {
 
           <section className="lower-left">
             <h2 className="code-examples">Code Examples</h2>
-            <p>Here are some examples of my code in the project.</p>
+            <p className="date-words">Here are some examples of my code in the project.</p>
             <ol>
-                <p>
+                <p className="date-words">
                   The first image of the app.js page shows the use of useEffect
                   in order to disable buttons when necessary. In addition you
                   can see the use of onSet for the different lists. This portion
@@ -120,7 +120,7 @@ export default function DateApp() {
                 <br />
                 <img src={React1} alt="React1" className="react-1-img" />
                 <br />
-                <p>
+                <p className="date-words">
                   The next two images are part of one of the first API fetches.
                   The TypeList.js image shows the API call based on a type of
                   date and the image that shows 'function Type' shows how 'type'
@@ -132,7 +132,7 @@ export default function DateApp() {
 
                 <img src={React3} alt="React3" className="react-3-img" />
 
-                <p>
+                <p className="date-words">
                   Below is an image of the second API call which finds a
                   location for the date idea that the user chooses. The string
                   that was found from the first API is automatically inserted

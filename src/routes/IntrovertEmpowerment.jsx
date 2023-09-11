@@ -8,7 +8,9 @@ import Introvert3 from "../assets/Introvert3.jpeg";
 
 export default function DateApp() {
   useEffect(() => {
-    document.title = "John Benton - Date App";
+    document.title = "John Benton - Introvert Empowerment App";
+    document.body.style.backgroundColor = "rgb(236, 235, 228)";
+
   }, []);
 
   return (
@@ -17,7 +19,7 @@ export default function DateApp() {
 
       <div className="container-introvert">
         <h1 className="name">Introvert Empowerment</h1>
-        <img src={homepage} alt="homepage" className="homepage" />
+        <img src={homepage} alt="homepage" className="homepage-img" />
         <div className="grid">
 
         <section className="top-left">
