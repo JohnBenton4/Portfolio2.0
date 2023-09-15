@@ -17,7 +17,6 @@ export default function DateApp() {
       <div className="container-date">
         <h1 className="name">Date Idea App</h1>
         <img src={reactImg} alt="reactImg" className="date-app-img" />
-
         <div className="grid">
           <section className="top-left">
             <h2 className="vision">Vision</h2>
@@ -34,16 +33,16 @@ export default function DateApp() {
               emphasis is on the functionality. A few notes about design:
             </p>
             <ul className="unlist">
-              <li >
+              <li>
                 - I wanted the UI to be unassuming (letting the user use it
                 inconspicuously if they needed to plan something as a surprise
                 while in the company of others)
               </li>
-              <li >
+              <li>
                 - There are three options to choose from, making it efficient
                 for the user
               </li>
-              <li >
+              <li>
                 - After choosing one of the first search options, the other two
                 submit buttons become disabled
               </li>
@@ -56,15 +55,13 @@ export default function DateApp() {
           <section className="logistic-section">
             <h2 className="logistics">Logistics</h2>
             <ul className="logistics-info">
-              <li >Development: September 15 - 27</li>
-              <li >
-                My roles: This was an individual project.
-              </li>
+              <li>Development: September 15 - 27</li>
+              <li>My roles: This was an individual project.</li>
             </ul>
             <p></p>
           </section>
         </div>
-<br />
+        <br />
         <div className="grid2">
           <section className="mid-left">
             <h2 className="features">Features</h2>
@@ -74,73 +71,84 @@ export default function DateApp() {
               application. Here are some of the features within my code:
             </p>
             <ul className="unlist">
-              <li >
+              <li>
                 -Discovered what CORS is and found a solution for CORS errors
               </li>
-              <li >
+              <li>
                 -Successfully fetched information from an API and then inserted
                 that information into a second API search to get the final
                 results
               </li>
-              <li >
+              <li>
                 -Disabled submit buttons after another submit button was clicked
               </li>
-              <li >
+              <li>
                 -Used basic bootstrap to streamline the look of the submit
                 buttons
               </li>
-              <li >-The use of useEffect to disable buttons</li>
+              <li>-The use of useEffect to disable buttons</li>
               <br />
               <p className="date-words">
                 The project can be located here:
-                <a className="date-app-github" href="https://github.com/JohnBenton4/react-date-idea-app">
-                DATE APP
+                <a
+                  className="date-app-github"
+                  href="https://github.com/JohnBenton4/react-date-idea-app"
+                >
+                  DATE APP
                 </a>
               </p>
               <p className="date-words">
                 The live deployment can be found here:
-                <a className="date-app-live" href="https://date-idea-app.netlify.app/"> LIVE</a>
+                <a
+                  className="date-app-live"
+                  href="https://date-idea-app.netlify.app/"
+                >
+                  {" "}
+                  LIVE
+                </a>
               </p>
             </ul>
           </section>
-<br />
-<br />
+          <br />
+          <br />
 
           <section className="lower-left">
             <h2 className="code-examples">Code Examples</h2>
-            <p className="date-words">Here are some examples of my code in the project.</p>
+            <p className="date-words">
+              Here are some examples of my code in the project.
+            </p>
             <ol>
-                <p className="date-words">
-                  The first image of the app.js page shows the use of useEffect
-                  in order to disable buttons when necessary. In addition you
-                  can see the use of onSet for the different lists. This portion
-                  of the code helped the children talk to the parent and then
-                  back to the children again.
-                </p>
-                <br />
-                <img src={React1} alt="React1" className="react-1-img" />
-                <br />
-                <p className="date-words">
-                  The next two images are part of one of the first API fetches.
-                  The TypeList.js image shows the API call based on a type of
-                  date and the image that shows 'function Type' shows how 'type'
-                  is used to fill in the information for the API call.
-                </p>
-                <br />
-                <img src={React2} alt="React2" className="react-2-img" />
-                <br />
+              <p className="date-words">
+                The first image of the app.js page shows the use of useEffect in
+                order to disable buttons when necessary. In addition you can see
+                the use of onSet for the different lists. This portion of the
+                code helped the children talk to the parent and then back to the
+                children again.
+              </p>
+              <br />
+              <img src={React1} alt="React1" className="react-1-img" />
+              <br />
+              <p className="date-words">
+                The next two images are part of one of the first API fetches.
+                The TypeList.js image shows the API call based on a type of date
+                and the image that shows 'function Type' shows how 'type' is
+                used to fill in the information for the API call.
+              </p>
+              <br />
+              <img src={React2} alt="React2" className="react-2-img" />
+              <br />
 
-                <img src={React3} alt="React3" className="react-3-img" />
+              <img src={React3} alt="React3" className="react-3-img" />
 
-                <p className="date-words">
-                  Below is an image of the second API call which finds a
-                  location for the date idea that the user chooses. The string
-                  that was found from the first API is automatically inserted
-                  into the second API without any human intervention from the
-                  user. Additionally, you will see the 'Bearer Id' has been
-                  hidden for privacy purposes in a secret.js file.
-                </p>
-                <img src={React4} alt="React4" className="react-4-img" />
+              <p className="date-words">
+                Below is an image of the second API call which finds a location
+                for the date idea that the user chooses. The string that was
+                found from the first API is automatically inserted into the
+                second API without any human intervention from the user.
+                Additionally, you will see the 'Bearer Id' has been hidden for
+                privacy purposes in a secret.js file.
+              </p>
+              <img src={React4} alt="React4" className="react-4-img" />
             </ol>
           </section>
           <br />

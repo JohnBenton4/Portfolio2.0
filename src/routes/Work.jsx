@@ -25,6 +25,8 @@ export default function Work() {
             new and exciting opportunities. Likewise, I am always learning and
             gaining new skills every day.
             <br />
+            <br />
+
             On the Internet:
             <a
               href="https://www.linkedin.com/in/john-benton/"

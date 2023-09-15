@@ -12,7 +12,7 @@ export default function Home() {
       <Sidebar />
       <div className="container-home">
         <div className="intro">
-          <div className="name">JOHN BENTON</div>
+          <div className="johnbenton">JOHN BENTON</div>
           <div className="credentials">Web Developer / Designer</div>
         </div>
         <div className="link-container">
