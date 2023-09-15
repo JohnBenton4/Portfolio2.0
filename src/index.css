@@ -637,10 +637,6 @@ h3 {
 .top-left {
   color: hsl(52, 17%, 91%);
 }
-/* .date-words {
-  color: hsl(52, 17%, 91%);
-
-} */
 .vision {
   font-size: calc(0.7rem + 2vw);
   margin-bottom: 2vh;
@@ -669,7 +665,6 @@ h3 {
 .logistics-info {
   font-size: calc(0.4rem + 1vw);
 }
-
 .grid2 {
   gap: 1em;
   font-size: 18px;
@@ -708,6 +703,12 @@ h3 {
   color: hsl(52, 17%, 91%);
 }
 .date-app-github {
+  color: hsl(52, 17%, 91%);
+}
+.introvert-app-github {
+  color: hsl(52, 17%, 91%);
+}
+.introvert-app-live {
   color: hsl(52, 17%, 91%);
 }
 .date-app-live {

@@ -58,7 +58,6 @@ export default function DateApp() {
               <li>Development: September 15 - 27</li>
               <li>My roles: This was an individual project.</li>
             </ul>
-            <p></p>
           </section>
         </div>
         <br />
@@ -94,6 +93,7 @@ export default function DateApp() {
                   className="date-app-github"
                   href="https://github.com/JohnBenton4/react-date-idea-app"
                 >
+                  {" "}
                   DATE APP
                 </a>
               </p>
@@ -156,7 +156,7 @@ export default function DateApp() {
 
           <section className="bottom">
             <h2 className="reflect">Project Reflection</h2>
-            <p className="reflection-details">
+            <p className="date-words">
               This was the first project that I worked on by myself. It was much
               easier to formulate a plan a strategy for this project and time
               management was much less complicated. There were many moments in

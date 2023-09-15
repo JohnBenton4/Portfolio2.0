@@ -62,14 +62,13 @@ export default function IntrovertEmpowerment() {
                 credential & bcrypt, API set up, and user profile
               </li>
             </ul>
-            <p></p>
           </section>
         </div>
         <br />
         <div className="grid2">
           <section className="mid-left">
             <h2 className="features">Features</h2>
-            <p>
+            <p className="introvert-words">
               This project was very challenging. We completed all the base
               requirements and moved on to extra features that made this app
               standout. Here are some of the features within our code:
@@ -88,25 +87,38 @@ export default function IntrovertEmpowerment() {
                 - Establishing a connection between several many to many tables
                 for each user
               </li>
-              <li>
+              <br />
+              <p className="introvert-words">
                 The project can be located here:
-                <a href="https://github.com/JohnBenton4/Introvert-Empowerment">
+                <a
+                  className="introvert-app-github"
+                  href="https://github.com/JohnBenton4/Introvert-Empowerment"
+                >
+                  {" "}
                   INTROVERT EMPOWERMENT
                 </a>
-              </li>
-              <li>
+              </p>
+              <p className="introvert-words">
                 The live deployment can be found here:
-                <a href="https://introvert-empowerment.herokuapp.com/"> LIVE</a>
-              </li>
+                <a
+                  className="introvert-app-live"
+                  href="https://introvert-empowerment.herokuapp.com/"
+                >
+                  {" "}
+                  LIVE
+                </a>
+              </p>
             </ul>
           </section>
           <br />
           <br />
           <section className="lower-left">
             <h2 className="code-examples">Code Examples</h2>
-            <p>Here are some examples of my code in the project.</p>
+            <p className="introvert-words">
+              Here are some examples of my code in the project.
+            </p>
             <ol>
-              <p>
+              <p className="introvert-words">
                 The first image of the server.js file demonstrates our structure
                 for getting and posting. Additionally, part of the bcrypt set up
                 is also on the server file. As mentioned before, the bcrypt was
@@ -121,7 +133,7 @@ export default function IntrovertEmpowerment() {
               />
 
               <br />
-              <p>
+              <p className="introvert-words">
                 The next image shows a small example of one of our many model
                 files used in this project. I built models for the challenges,
                 conversations, and pickup lines. All those tables are linked to
@@ -135,7 +147,7 @@ export default function IntrovertEmpowerment() {
                 className="introvert2-img"
               />
 
-              <p>
+              <p className="introvert-words">
                 The last image below contains code for what we are calling the
                 Projects file. This file contains cards that are responsive and
                 are really the heart of the functionality of the project. The
@@ -149,9 +161,11 @@ export default function IntrovertEmpowerment() {
               />
             </ol>
           </section>
-          <div>
+          <br />
+          <br />
+          <section className="bottom">
             <h2 className="reflect">Project Reflection</h2>
-            <p>
+            <p className="introvert-words">
               My group worked very well together on our capstone project, and in
               a relatively short time we were able to create an app that
               surpassed the requirements set forth for the assignment. I learned
@@ -161,7 +175,7 @@ export default function IntrovertEmpowerment() {
               with each project I work on and continue to have a better
               understanding of best practices for front end and back end work.
             </p>
-          </div>
+          </section>
         </div>
       </div>
     </>
