@@ -42,10 +42,14 @@ export default function Work() {
         </section>
         <section className="work-right">
         <Link to="/dateApp">
-              <h1 className="date-app-styles" style={{ color: "rgb(236, 235, 228)" }}>Date App</h1>
+              <h1 className="date-app-styles" style={{ color: "rgb(236, 235, 228)" }}>Date Idea App</h1>
             </Link>
             <Link to="/introvertEmpowerment">
               <h1 className="introvert-styles" style={{ color: "rgb(236, 235, 228)" }}>Introvert Empowerment</h1>
+            </Link>
+            <Link to="/moodGame">
+            <h1 className="moodgame-styles" style={{ color: "rgb(236, 235, 228)" }}>Mood Game</h1>
+
             </Link>
         </section>
       </div>

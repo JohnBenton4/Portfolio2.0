@@ -7,6 +7,7 @@ const Resume = lazy(() => import("./routes/Resume"));
 const Contact = lazy(() => import("./routes/Contact"));
 const DateApp = lazy(() => import("./routes/DateApp"));
 const IntrovertEmpowerment = lazy(() => import("./routes/IntrovertEmpowerment"));
+const MoodGame = lazy(() => import("./routes/MoodGame"));
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/dateApp" element={<DateApp />} />
           <Route path="/introvertEmpowerment" element={<IntrovertEmpowerment />} />
+          <Route path="/moodGame" element={<MoodGame />} />
 
 
         </Routes>
