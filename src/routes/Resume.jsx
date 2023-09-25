@@ -45,7 +45,7 @@ export default function Resume() {
           </section>
           <section className="right-top">
             <h2 className="underline">DEVELOPMENT SKILLS</h2>
-            <div className="skills">
+            <div className="dev-skills">
               <img src={css} alt="css" />
               <img src={git} alt="git" />
               <img src={html} alt="html" />

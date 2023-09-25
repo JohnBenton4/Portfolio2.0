@@ -33,11 +33,19 @@ export default function About() {
             </p>
           </section>
           <section className="quote">
-            <p>"This will be a quote of some kind"</p>
+            <p>
+              “We all want progress. But progress means getting nearer to the
+              place where you want to be. And if you have taken a wrong turning,
+              then to go forward does not get you any nearer. If you are on the
+              wrong road, progress means doing an about-turn and walking back to
+              the right road; and in that case the man who turns back soonest is
+              the most progressive man.” - C.S. Lewis
+            </p>
           </section>
           <section className="experience">
             <h3>Experience</h3>
             <ul className="experience-details">
+              <li>- Certified Full Stack Web Developer</li>
               <li>- Degrees in Music Education and Percussion Performance</li>
               <li>- 2 years of experience in Web Development</li>
               <li>- 5 years of experience in Finance</li>

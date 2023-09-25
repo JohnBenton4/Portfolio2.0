@@ -515,11 +515,12 @@ a {
 .about-me {
   font-size: calc(0.1rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
-  padding-top: 1vh;
+  padding-top: 3vh;
 }
 .quote {
   font-size: calc(0.2rem + 2vw);
-  padding-bottom: 3vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   font-family: "Italiana", serif;
   font-weight: bold;
 }
@@ -534,7 +535,7 @@ a {
 }
 .skills {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: calc(0.2rem + 2vw);
+  font-size: calc(0.3rem + 2vw);
   padding-bottom: 3vh;
 }
 .skills-details {
@@ -576,7 +577,7 @@ h3 {
 .resume-credentials {
   padding-top: 4vh;
 }
-.skills {
+.dev-skills {
   margin-left: 10%;
   padding-top: 3vh;
 }
