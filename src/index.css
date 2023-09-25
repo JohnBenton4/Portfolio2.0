@@ -355,7 +355,7 @@
     margin: 0 auto;
   }
   .container-work {
-    display: flex;
+    display: inline-block;
     padding-left: 15%;
     padding-right: 15px;
     padding-top: 5vh;
@@ -410,19 +410,14 @@
     max-width: 5vw;
     max-height: 5vh;
   }
-  .aside.show-menu {
-    /* max-width: 5vw; */
+  .container-work {
+    display: inline-block;
+    padding-top: 10vh;
   }
-  /* .home-button {
-  font-size: small;
- }
- .linkedIn {
-  font-size: small;
-
- }
- .gitHub {
-  font-size: small;
- } */
+  .container-about {
+    display: inline-block;
+  }
+ 
 }
 
 /* Base  */
@@ -549,7 +544,7 @@ a {
 .about-right img {
   height: 80vh;
   padding-top: 10vh;
-  padding-left: 15vw;
+  padding-left: 10vw;
 }
 .resume-button {
   color: hsl(53, 19%, 91%);
@@ -802,4 +797,16 @@ h3 {
 }
 .reflection-details {
   padding-top: 2vh;
+}
+.mood-words {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.introvert-words {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.date-words {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }

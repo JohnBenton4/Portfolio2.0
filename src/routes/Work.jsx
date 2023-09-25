@@ -16,7 +16,8 @@ export default function Work() {
             <h1 style={{ color: "rgb(236, 235, 228)" }}>Work</h1>
           </div>
           <br></br>
-          <section className="work-info">
+          <section 
+          className="work-info">
             Here are examples of my most recent work featuring examples of front
             end design, back end database and API usage
             <br />
@@ -26,7 +27,6 @@ export default function Work() {
             gaining new skills every day.
             <br />
             <br />
-
             On the Internet:
             <a
               href="https://www.linkedin.com/in/john-benton/"
@@ -41,16 +41,30 @@ export default function Work() {
           </section>
         </section>
         <section className="work-right">
-        <Link to="/dateApp">
-              <h1 className="date-app-styles" style={{ color: "rgb(236, 235, 228)" }}>Date Idea App</h1>
-            </Link>
-            <Link to="/introvertEmpowerment">
-              <h1 className="introvert-styles" style={{ color: "rgb(236, 235, 228)" }}>Introvert Empowerment</h1>
-            </Link>
-            <Link to="/moodGame">
-            <h1 className="moodgame-styles" style={{ color: "rgb(236, 235, 228)" }}>Mood Game</h1>
-
-            </Link>
+          <Link to="/dateApp">
+            <h1
+              className="date-app-styles"
+              style={{ color: "rgb(236, 235, 228)" }}
+            >
+              Date Idea App
+            </h1>
+          </Link>
+          <Link to="/introvertEmpowerment">
+            <h1
+              className="introvert-styles"
+              style={{ color: "rgb(236, 235, 228)" }}
+            >
+              Introvert Empowerment
+            </h1>
+          </Link>
+          <Link to="/moodGame">
+            <h1
+              className="moodgame-styles"
+              style={{ color: "rgb(236, 235, 228)" }}
+            >
+              Mood Game
+            </h1>
+          </Link>
         </section>
       </div>
     </>
