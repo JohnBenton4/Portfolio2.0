@@ -21,7 +21,7 @@ export default function About() {
 
             <p class="about-me">
               I'm a developer with a background in music. My dream is to build
-              beautiful websites to help people solve problems. I believe I can
+              smart websites to help people solve problems. I believe I can
               have a positive global impact, and I am extremely excited for the
               opportunities that await me in the near future.
               <br />
@@ -33,17 +33,17 @@ export default function About() {
             </p>
           </section>
           <section className="quote">
-            <p>
+            
               “We all want progress. But progress means getting nearer to the
               place where you want to be. And if you have taken a wrong turning,
               then to go forward does not get you any nearer. If you are on the
               wrong road, progress means doing an about-turn and walking back to
               the right road; and in that case the man who turns back soonest is
               the most progressive man.” - C.S. Lewis
-            </p>
+            
           </section>
           <section className="experience">
-            <h3>Experience</h3>
+            Experience
             <ul className="experience-details">
               <li>- Certified Full Stack Web Developer</li>
               <li>- Degrees in Music Education and Percussion Performance</li>
@@ -52,7 +52,7 @@ export default function About() {
             </ul>
           </section>
           <section className="skills">
-            <h3>Skills</h3>
+            Skills
             <ul className="skills-details">
               <li>
                 Javascript/React.JS/Node.JS/Express.JS/Angular.JS/

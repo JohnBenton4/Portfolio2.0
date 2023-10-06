@@ -15,7 +15,6 @@ export default function Resume() {
   return (
     <>
       <Sidebar />
-
       <div className="container-resume">
         <section className="resume-title">
           <h1>Resume</h1>
@@ -46,14 +45,14 @@ export default function Resume() {
           <section className="right-top">
             <h2 className="underline">DEVELOPMENT SKILLS</h2>
             <div className="dev-skills">
-              <img src={css} alt="css" />
-              <img src={git} alt="git" />
-              <img src={html} alt="html" />
-              <img src={javascript} alt="javascript" className="js" />
+              <img className="skillsimg" src={css} alt="css" />
+              <img className="skillsimg" src={git} alt="git" />
+              <img className="skillsimg" src={html} alt="html" />
+              <img className="skillsimg" src={javascript} alt="javascript" />
               <br />
-              <img src={nodejs} alt="nodejs" />
-              <img src={react} alt="react" />
-              <img src={vscode} alt="vscode" />
+              <img className="skillsimg" src={nodejs} alt="nodejs" />
+              <img className="skillsimg" src={react} alt="react" />
+              <img className="skillsimg" src={vscode} alt="vscode" />
             </div>
           </section>
         </div>

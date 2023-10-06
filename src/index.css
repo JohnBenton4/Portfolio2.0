@@ -505,47 +505,48 @@ a {
 }
 .about-title {
   font-size: calc(4rem + 1vw);
+  padding-top: 2vh;
   font-family: "Italiana", serif;
 }
 .hello {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: calc(1rem + 2vw);
+  font-size: calc(1.7rem + 1vw);
   margin-bottom: 3vh;
 }
 .about-me {
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.7rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
   padding-top: 3vh;
 }
 .quote {
-  font-size: calc(0.2rem + 2vw);
-  padding-top: 4vh;
+  font-size: calc(0.6rem + 1vw);
+  padding-top: 3vh;
   padding-bottom: 4vh;
   font-family: "Italiana", serif;
   font-weight: bold;
 }
 .experience {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: calc(0.3rem + 2vw);
+  font-size: calc(1rem + 1vw);
   padding-bottom: 3vh;
 }
 .experience-details {
-  font-size: calc(0.3rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   padding-top: 1vh;
 }
 .skills {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: calc(0.3rem + 2vw);
+  font-size: calc(1rem + 1vw);
   padding-bottom: 3vh;
 }
 .skills-details {
-  font-size: calc(0.3rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   padding-top: 1vh;
 }
 .about-right img {
   height: 80vh;
   padding-top: 10vh;
-  padding-left: 10vw;
+  padding-left: 2vw;
 }
 .resume-button {
   color: hsl(53, 19%, 91%);
@@ -562,29 +563,32 @@ a {
 /* Resume Page  */
 
 .resume-title {
-  font-size: calc(0.1rem + 7vw);
+  font-size: calc(3.9rem + 1vw);
   font-family: "Italiana", serif;
+  padding-top: 2vh;
 }
 p {
-  font-size: calc(0.4rem + 1vw);
+  font-size: calc(0.7rem + 1vw);
 }
 h2 {
-  font-size: calc(1rem + 2vw);
+  font-size: calc(1.5rem + 1vw);
 }
 h3 {
-  font-size: calc(0.3rem + 2vw);
+  font-size: calc(1rem + 1vw);
+  padding-top: 1vh;
 }
 .resume-credentials {
   padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 .dev-skills {
   margin-left: 10%;
   padding-top: 3vh;
 }
-.skills img {
-  max-height: 90px;
+.skillsimg {
+  max-height: 80px;
   width: auto;
-  padding: 7px;
+  padding: 5px;
 }
 .top {
   display: grid;
@@ -632,11 +636,12 @@ h3 {
 .work-title {
   font-size: calc(4rem + 1vw);
   font-family: "Italiana", serif;
+  padding-top: 2vh;
+
 }
 .work-info {
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.7rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
-  /* padding-top: 1vh; */
   margin-bottom: 5vh;
 }
 .work-right {
