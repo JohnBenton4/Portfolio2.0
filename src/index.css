@@ -501,19 +501,19 @@ a {
 
 /* About Page  */
 .about-left {
-  max-width: 40%;
+  max-width: 60%;
 }
 .about-title {
-  font-size: calc(0.1rem + 7vw);
+  font-size: calc(4rem + 1vw);
   font-family: "Italiana", serif;
 }
 .hello {
   font-family: "Noto Sans KR", sans-serif;
-  font-size: calc(0.7rem + 2vw);
+  font-size: calc(1rem + 2vw);
   margin-bottom: 3vh;
 }
 .about-me {
-  font-size: calc(0.1rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
   padding-top: 3vh;
 }
@@ -626,30 +626,34 @@ h3 {
 /* Work Page  */
 
 .greeting {
-  max-width: 40%;
+  max-width: 60%;
   color: hsl(52, 17%, 91%);
 }
 .work-title {
-  font-size: calc(0.1rem + 7vw);
+  font-size: calc(4rem + 1vw);
   font-family: "Italiana", serif;
 }
 .work-info {
-  font-size: calc(0.2rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   font-family: "Noto Sans KR", sans-serif;
-  padding-top: 1vh;
+  /* padding-top: 1vh; */
   margin-bottom: 5vh;
 }
 .work-right {
   padding-left: 5vw;
+  max-width: 60%;
 }
 .date-app-styles {
   padding-bottom: 8vh;
+  font-size: calc(2rem + 3vw);
 }
 .introvert-styles {
   padding-bottom: 8vh;
+  font-size: calc(2rem + 3vw);
 }
 .moodgame-styles {
   padding-bottom: 8vh;
+  font-size: calc(2rem + 3vw);
 }
 
 /* App Pages  */

@@ -17,7 +17,7 @@ export default function About() {
           </div>
           <br></br>
           <section className="hello">
-            <h3>I'm John. A developer, a designer, and a problem solver.</h3>
+          I'm John. A developer, a designer, and a problem solver.
 
             <p class="about-me">
               I'm a developer with a background in music. My dream is to build
